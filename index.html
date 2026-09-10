@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Divyansh Mishra — Class 10 student, artist, and enthusiast of mythology and space science from Gorakhpur, Uttar Pradesh.">
+  <meta name="keywords" content="Divyansh Mishra, student portfolio, artist, mythology, space science, Gorakhpur">
+  <meta name="author" content="Divyansh Mishra">
+  <meta name="robots" content="index, follow">
+  <title>Divyansh Mishra | Student • Artist • Explorer</title>
+  <style>
+    :root{--bg:#070b1a;--card:#111831;--text:#f5f7ff;--muted:#aab4d0;--accent:#8b7cff;--accent2:#4fd1ff}
+    *{box-sizing:border-box;scroll-behavior:smooth}
+    body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;background:radial-gradient(circle at 80% 10%,#22235c 0,transparent 30%),radial-gradient(circle at 10% 50%,#102b55 0,transparent 28%),var(--bg);color:var(--text);line-height:1.6}
+    nav{position:fixed;top:0;width:100%;z-index:10;background:rgba(7,11,26,.75);backdrop-filter:blur(14px);border-bottom:1px solid rgba(255,255,255,.08)}
+    nav .wrap{max-width:1050px;margin:auto;padding:15px 22px;display:flex;justify-content:space-between;align-items:center}
+    .logo{font-weight:800;letter-spacing:.5px}.logo span{color:var(--accent2)}
+    nav a{color:var(--muted);text-decoration:none;margin-left:20px;font-size:.95rem}nav a:hover{color:white}
+    .hero{min-height:100vh;display:grid;place-items:center;padding:120px 22px 70px;position:relative;overflow:hidden}
+    .stars{position:absolute;inset:0;background-image:radial-gradient(#fff 1px,transparent 1px);background-size:70px 70px;opacity:.13;animation:drift 18s linear infinite}
+    @keyframes drift{to{background-position:70px 70px}}
+    .hero-inner{max-width:900px;text-align:center;position:relative}
+    .badge{display:inline-block;padding:7px 14px;border:1px solid rgba(139,124,255,.45);border-radius:999px;background:rgba(139,124,255,.1);color:#c9c2ff;font-size:.9rem}
+    h1{font-size:clamp(3rem,10vw,6.5rem);line-height:.95;margin:22px 0 18px;letter-spacing:-4px}
+    h1 span{background:linear-gradient(90deg,#fff,#9e96ff,#4fd1ff);-webkit-background-clip:text;color:transparent}
+    .lead{font-size:1.2rem;color:var(--muted);max-width:680px;margin:0 auto 30px}
+    .buttons a{display:inline-block;padding:12px 20px;border-radius:12px;text-decoration:none;margin:5px;font-weight:700}
+    .primary{background:linear-gradient(90deg,var(--accent),var(--accent2));color:#07101b}
+    .secondary{border:1px solid rgba(255,255,255,.15);color:white;background:rgba(255,255,255,.04)}
+    section{max-width:1050px;margin:auto;padding:85px 22px}
+    .eyebrow{color:var(--accent2);font-weight:800;text-transform:uppercase;letter-spacing:2px;font-size:.8rem}
+    h2{font-size:2.4rem;margin:7px 0 28px}
+    .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+    .card{background:rgba(17,24,49,.78);border:1px solid rgba(255,255,255,.08);border-radius:20px;padding:25px;box-shadow:0 15px 40px rgba(0,0,0,.18);transition:.25s}
+    .card:hover{transform:translateY(-5px);border-color:rgba(139,124,255,.4)}
+    .icon{font-size:2rem}.card h3{margin:10px 0 5px}.card p{color:var(--muted);margin:0}
+    .about{display:grid;grid-template-columns:1.2fr .8fr;gap:25px;align-items:stretch}
+    .facts div{padding:12px 0;border-bottom:1px solid rgba(255,255,255,.08)}.facts b{display:block}
+    .quote{font-size:1.5rem;color:#dfe5ff}
+    footer{text-align:center;padding:35px 22px;color:var(--muted);border-top:1px solid rgba(255,255,255,.08)}
+    @media(max-width:750px){nav a{display:none}.grid,.about{grid-template-columns:1fr}h1{letter-spacing:-2px}}
+  </style>
+</head>
+<body>
+  <nav><div class="wrap">
+    <div class="logo">DIVYANSH<span>.</span></div>
+    <div><a href="#about">About</a><a href="#interests">Interests</a><a href="#goals">Goals</a></div>
+  </div></nav>
+
+  <header class="hero">
+    <div class="stars"></div>
+    <div class="hero-inner">
+      <div class="badge">Class 10 Student • Gorakhpur, Uttar Pradesh</div>
+      <h1>Hello, I'm <span>Divyansh.</span></h1>
+      <p class="lead">A student, artist, and curious explorer who loves creating art and discovering the mysteries of mythology and space science.</p>
+      <div class="buttons"><a class="primary" href="#about">Explore My Profile ↓</a><a class="secondary" href="#interests">My Interests</a></div>
+    </div>
+  </header>
+
+  <section id="about">
+    <div class="eyebrow">01 — About Me</div><h2>Student. Creator. Explorer.</h2>
+    <div class="about">
+      <div class="card"><p class="quote">“Learning doesn't stop at textbooks. Curiosity is where the adventure begins.”</p>
+        <p style="color:var(--muted)">I am Divyansh Mishra, a Class 10 student from Gorakhpur, Uttar Pradesh, India. I enjoy learning, creating artwork, and exploring subjects that make me curious about the world and beyond.</p>
+      </div>
+      <div class="card facts">
+        <div><b>🎓 Education</b><span>Class 10</span></div>
+        <div><b>🎨 Creative interest</b><span>Art & drawing</span></div>
+        <div><b>🏛️ Curiosity</b><span>Mythology</span></div>
+        <div><b>🚀 Exploration</b><span>Space science</span></div>
+        <div><b>📍 Location</b><span>Gorakhpur, Uttar Pradesh, India</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="interests">
+    <div class="eyebrow">02 — Interests</div><h2>Things I Love Exploring</h2>
+    <div class="grid">
+      <div class="card"><div class="icon">🎨</div><h3>Art & Creativity</h3><p>I enjoy making drawings and experimenting with creative ideas and different styles of art.</p></div>
+      <div class="card"><div class="icon">🏛️</div><h3>Mythology</h3><p>I am fascinated by mythology, ancient stories, traditions, and the ideas they carry across generations.</p></div>
+      <div class="card"><div class="icon">🚀</div><h3>Space Science</h3><p>Planets, stars, galaxies, the universe, and space exploration keep my curiosity alive.</p></div>
+    </div>
+  </section>
+
+  <section id="goals">
+    <div class="eyebrow">03 — My Goals</div><h2>Keep Learning. Keep Creating.</h2>
+    <div class="card">
+      <p style="color:var(--muted);font-size:1.08rem">My goal is to keep improving my creativity, knowledge, and skills while exploring new ideas and building projects that I can be proud of.</p>
+      <div class="buttons"><a class="primary" href="#top" onclick="window.scrollTo({top:0,behavior:'smooth'});return false;">Back to top ↑</a></div>
+    </div>
+  </section>
+
+  <footer>© 2026 Divyansh Mishra • Personal Learning & Creativity Portfolio</footer>
+</body>
+</html>
